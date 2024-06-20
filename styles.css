@@ -1,0 +1,67 @@
+body {
+    font-family: system-ui, sans-serif;
+    background-color: #d1ffcc;
+}   
+
+
+.lead  {
+    font-size: 1.5em; 
+    font-weight: 300; 
+}
+
+section {
+    background: white;
+    padding: 20px;
+    margin: 10px;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+th {
+    text-align: start;
+    border-bottom: 1px  solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+}
+
+td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+}
+
+.separate {
+    border-collapse: collapse;
+}
+
+.price {
+    text-align: right;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+}
+
+.inline-label {
+    display: inline;
+}
+
+textarea {
+    width: 100%;
+    min-height: 100px;
+}
+
+#container {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
